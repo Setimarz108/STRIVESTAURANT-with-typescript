@@ -15,3 +15,13 @@ export interface Pasta {
         date: string
     }[]
 }
+
+export interface Reservations {
+
+    name: string,
+    phone: string,
+    numberOfPeople: number,
+    smoking: false,
+    dateTime: string,
+    specialRequests: string,
+}

@@ -1,10 +1,13 @@
 import { useState, FormEvent} from 'react'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import {Reservation} from '../Typings'
+import {Reservations} from '../Typings'
+
+
 
 const ReservationForm = () => {
-  const [reservation, setReservation] = useState<Reservation>()
+  const [reservation, setReservation] = useState<Reservations>()
+
 
   const handleInput = (fieldName, value) => {
     setReservation({
